@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* remove default body margin */
+    padding: 0;
+    line-height: 1.5;
+    background-color: #f4f4f4; /* light background for contrast */
+}
+
+/* ===============================
+   Header and Navigation
+================================== */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px; /* padding inside the header box */
+}
+
+header h1 {
+    margin: 0; /* remove default margin */
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px; /* spacing between links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   Introduction Section
+================================== */
+.intro {
+    background-color: #ffffff;
+    border: 2px solid #ccc; /* border to illustrate box edges */
+    margin: 20px;           /* space outside the box */
+    padding: 15px;          /* space inside the box */
+    box-sizing: border-box; /* keeps padding/border inside set width */
+}
+
+/* ===============================
+   Cards Section
+================================== */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px; /* consistent spacing between cards */
+}
+
+.card {
+    background-color: #eaf2f8;
+    border: 3px solid #3498db;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    box-sizing: border-box; /* ensures border/padding don't exceed width */
+    border-radius: 5px; /* slight rounding for style */
+}
+
+.card h3 {
+    margin-top: 0; /* no extra space above headings */
+    color: #2c3e50;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+/* ===============================
+   Footer
+================================== */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
